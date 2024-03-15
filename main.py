@@ -77,7 +77,7 @@ def main():
             st.success("Correo institucional verificado.")
         else:
             show_diagnosis(answers)
-            st.error("¡ALERTA DE FISHING! Este correo no pertenece a la empresa.")
+            st.error("¡ALERTA DE PISHING! Este correo no pertenece a la empresa.")
 
 def validate_institutional_email(email):
     # Expresión regular para verificar el formato del correo electrónico
